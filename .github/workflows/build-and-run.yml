@@ -1,0 +1,40 @@
+name: Build and Run C++ Project
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # Cho phép chạy thủ công từ tab Actions
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest  # Dùng Linux (g++ sẵn có)
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install g++
+        run: sudo apt-get install -y g++
+
+      - name: Compile
+        run: |
+          g++ -std=c++17 main.cpp \
+            src/Config.cpp \
+            src/Input.cpp \
+            src/Solution.cpp \
+            src/Utils.cpp \
+            src/LargeNeighborhoodSearch.cpp \
+            src/MultiLevel.cpp \
+            -o main_exec
+
+      - name: Run
+        run: ./main_exec
+
+      - name: Upload result files
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: results
+          path: result_real/  # Thư mục output theo Config.json của bạn
