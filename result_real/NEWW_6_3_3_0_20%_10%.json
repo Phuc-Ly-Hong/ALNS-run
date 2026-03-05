@@ -1,0 +1,170 @@
+{
+    "6.10.1 | Average: ": 13.419137613927246,
+    "6.10.1 | Best: ": 13.419137613927246,
+    "6.10.1 | STD: ": 0.0,
+    "6.10.1.txt": {
+        "6.10.1.txt.1": {
+            "Best Score: ": 13.419137613927246,
+            "Best Solution: ": "13.419138 == [[[3]],[[6,6,6,6,1]],[[5,5,5,5,4]]] || [[2],[],[]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.44,
+            "Score List: ": "Level 0: 14.584775 | Level 1: -0.079922 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: -0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.10.2 | Average: ": 15.661528128665465,
+    "6.10.2 | Best: ": 15.661528128665465,
+    "6.10.2 | STD: ": 0.0,
+    "6.10.2.txt": {
+        "6.10.2.txt.1": {
+            "Best Score: ": 15.661528128665465,
+            "Best Solution: ": "15.661528 == [[[3]],[[4]],[[6]]] || [[5],[1],[2]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.375,
+            "Score List: ": "Level 0: 15.661528 | Level 1: 0.000000 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.10.3 | Average: ": 14.408161951234206,
+    "6.10.3 | Best: ": 14.408161951234206,
+    "6.10.3 | STD: ": 0.0,
+    "6.10.3.txt": {
+        "6.10.3.txt.1": {
+            "Best Score: ": 14.408161951234206,
+            "Best Solution: ": "14.408162 == [[[3]],[[6]],[[5]]] || [[1],[2],[4]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.383,
+            "Score List: ": "Level 0: 14.408162 | Level 1: 0.000000 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.10.4 | Average: ": 11.68828620229006,
+    "6.10.4 | Best: ": 11.68828620229006,
+    "6.10.4 | STD: ": 0.0,
+    "6.10.4.txt": {
+        "6.10.4.txt.1": {
+            "Best Score: ": 11.68828620229006,
+            "Best Solution: ": "11.688286 == [[[6]],[[2,4,4,4,4]],[[5,5,5,5,3]]] || [[],[1],[]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.445,
+            "Score List: ": "Level 0: 13.136189 | Level 1: -0.110222 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.20.1 | Average: ": 24.28159004712444,
+    "6.20.1 | Best: ": 24.28159004712444,
+    "6.20.1 | STD: ": 0.0,
+    "6.20.1.txt": {
+        "6.20.1.txt.1": {
+            "Best Score: ": 24.28159004712444,
+            "Best Solution: ": "24.281590 == [[[2]],[[5]],[[3]]] || [[1],[6],[4]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.524,
+            "Score List: ": "Level 0: 24.281590 | Level 1: 0.000000 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.20.2 | Average: ": 30.416187883468314,
+    "6.20.2 | Best: ": 30.416187883468314,
+    "6.20.2 | STD: ": 0.0,
+    "6.20.2.txt": {
+        "6.20.2.txt.1": {
+            "Best Score: ": 30.416187883468314,
+            "Best Solution: ": "30.416188 == [[[4]],[[3]],[[2]]] || [[1],[5],[6]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.417,
+            "Score List: ": "Level 0: 30.416188 | Level 1: 0.000000 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.20.3 | Average: ": 30.121185312527953,
+    "6.20.3 | Best: ": 30.121185312527953,
+    "6.20.3 | STD: ": 0.0,
+    "6.20.3.txt": {
+        "6.20.3.txt.1": {
+            "Best Score: ": 30.121185312527953,
+            "Best Solution: ": "30.121185 == [[[2]],[[5]],[[6]]] || [[3],[4],[1]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.352,
+            "Score List: ": "Level 0: 30.121185 | Level 1: 0.000000 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.20.4 | Average: ": 28.79052780695943,
+    "6.20.4 | Best: ": 28.79052780695943,
+    "6.20.4 | STD: ": 0.0,
+    "6.20.4.txt": {
+        "6.20.4.txt.1": {
+            "Best Score: ": 28.79052780695943,
+            "Best Solution: ": "28.790528 == [[[5]],[[4,4,4,4,3]],[[6,6,6,6,2]]] || [[],[1],[]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.423,
+            "Score List: ": "Level 0: 30.158264 | Level 1: -0.045352 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: -0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.5.1 | Average: ": 8.195568520051545,
+    "6.5.1 | Best: ": 8.195568520051545,
+    "6.5.1 | STD: ": 0.0,
+    "6.5.1.txt": {
+        "6.5.1.txt.1": {
+            "Best Score: ": 8.195568520051545,
+            "Best Solution: ": "8.195569 == [[[2]],[[3]],[[5]]] || [[6],[1],[4]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.37,
+            "Score List: ": "Level 0: 8.195569 | Level 1: 0.000000 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.5.2 | Average: ": 7.452899217113276,
+    "6.5.2 | Best: ": 7.452899217113276,
+    "6.5.2 | STD: ": 0.0,
+    "6.5.2.txt": {
+        "6.5.2.txt.1": {
+            "Best Score: ": 7.452899217113276,
+            "Best Solution: ": "7.452899 == [[[2,2,2,3,3,3,3,1]],[[5]],[[4]]] || [[6],[],[]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.418,
+            "Score List: ": "Level 0: 8.578582 | Level 1: 0.037431 | Level 2: 0.018250 | Level 3: -0.053357 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: -0.062753 | Level 0: -0.073052 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.5.3 | Average: ": 6.787649796903761,
+    "6.5.3 | Best: ": 6.787649796903761,
+    "6.5.3 | STD: ": 0.0,
+    "6.5.3.txt": {
+        "6.5.3.txt.1": {
+            "Best Score: ": 6.787649796903761,
+            "Best Solution: ": "6.787650 == [[[1,5,5,5,5]],[[3]],[[4]]] || [[2],[6],[]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.381,
+            "Score List: ": "Level 0: 7.058753 | Level 1: -0.038407 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    },
+    "6.5.4 | Average: ": 7.653770533061738,
+    "6.5.4 | Best: ": 7.653770533061738,
+    "6.5.4 | STD: ": 0.0,
+    "6.5.4.txt": {
+        "6.5.4.txt.1": {
+            "Best Score: ": 7.653770533061738,
+            "Best Solution: ": "7.653771 == [[[2]],[[4,4,4,4,1]],[[3]]] || [[],[6],[5]]",
+            "Num_Drone: ": 3,
+            "Num_Tech: ": 3,
+            "Run Time: ": 0.428,
+            "Score List: ": "Level 0: 8.241707 | Level 1: -0.071337 | Level 2: 0.000000 | Level 3: 0.000000 | Level 4: 0.000000 | Post Optimization: 0.000000 | Level 2: 0.000000 | Level 1: 0.000000 | Level 0: 0.000000 | Post Optimization: 0.000000 | ",
+            "num level": 4
+        }
+    }
+}

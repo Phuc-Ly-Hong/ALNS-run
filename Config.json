@@ -1,0 +1,48 @@
+{
+    "type": "tabu",
+    "ws": "",
+    "TaburesultFolder": "lns_result/",
+    "MultiLevelresultFolder": "result_real/",
+    "dataPath": "data/",
+    "dataName": "12.5.4",
+    "dataType": ".txt",
+    "NumRunPerDataSet": 1,
+    "multiData": true,
+    "addEjectionType": 1,
+    "ejectionIte": 30,
+    "overwrite": true,
+    "run_type": 0,
+    "plus1": 1,
+    "plustech": 0,
+
+    "parameter": {
+        "droneVelocity": 0.83,
+        "techVelocity": 0.58,
+        "numDrone": 2,
+        "numTech": 2,
+        "droneLimitationFlightTime": 120,
+        "sampleLimitationWaitingTime": 60,
+        "use_ejection": true,
+        "use_inter": true, 
+        "use_intra": true
+    },
+    "multiLevel_para": {
+        "num_level": 3,
+        "percent_match": 0.2,
+        "percent_select": 0.1,
+        "tabu_size": 10,
+        "tabuMaxIter": 500
+    },
+    "tabu_para": {
+        "tabuNumRunPerDataSet": 1,
+        "tabuNotImproveIter": 100,
+        "tabuAlpha1": 1,
+        "tabuAlpha2": 1,
+        "tabuBeta": 0.5,
+        "tabuEpsilon": 0.001,
+        "maxEjectionLevel": 2,
+        "minTabuDuration": 5,
+        "maxTabuDuration": 10,
+        "isCycle": true
+    }
+}

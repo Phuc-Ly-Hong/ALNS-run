@@ -1,0 +1,130 @@
+{
+    "100.10.1": {
+        "1_MultiLevel_Score": 27.128270470915528,
+        "1_MultiLevel_Time": 180.88,
+        "2_LNSOnly_Score": 27.708430761641498,
+        "2_LNSOnly_Time": 180.885,
+        "3_GAP_Percentage": 2.1385819318926576,
+        "Winner": "Multi-Level"
+    },
+    "100.10.2": {
+        "1_MultiLevel_Score": 27.636548771929256,
+        "1_MultiLevel_Time": 197.984,
+        "2_LNSOnly_Score": 26.973649641299605,
+        "2_LNSOnly_Time": 197.99,
+        "3_GAP_Percentage": -2.3986321016427508,
+        "Winner": "LNS Only"
+    },
+    "100.10.3": {
+        "1_MultiLevel_Score": 26.21099802783424,
+        "1_MultiLevel_Time": 208.391,
+        "2_LNSOnly_Score": 27.594238662772433,
+        "2_LNSOnly_Time": 208.412,
+        "3_GAP_Percentage": 5.27732913286739,
+        "Winner": "Multi-Level"
+    },
+    "100.10.4": {
+        "1_MultiLevel_Score": 26.089280097976015,
+        "1_MultiLevel_Time": 221.063,
+        "2_LNSOnly_Score": 29.09221485720959,
+        "2_LNSOnly_Time": 221.086,
+        "3_GAP_Percentage": 11.510224689820172,
+        "Winner": "Multi-Level"
+    },
+    "100.20.1": {
+        "1_MultiLevel_Score": 52.3536426389543,
+        "1_MultiLevel_Time": 135.469,
+        "2_LNSOnly_Score": 56.81313370826894,
+        "2_LNSOnly_Time": 135.484,
+        "3_GAP_Percentage": 8.518014878293325,
+        "Winner": "Multi-Level"
+    },
+    "100.20.2": {
+        "1_MultiLevel_Score": 55.29041297383085,
+        "1_MultiLevel_Time": 114.482,
+        "2_LNSOnly_Score": 55.71633088557985,
+        "2_LNSOnly_Time": 114.493,
+        "3_GAP_Percentage": 0.770328686006726,
+        "Winner": "Multi-Level"
+    },
+    "100.20.3": {
+        "1_MultiLevel_Score": 65.35195146985056,
+        "1_MultiLevel_Time": 119.238,
+        "2_LNSOnly_Score": 58.93281710800488,
+        "2_LNSOnly_Time": 119.253,
+        "3_GAP_Percentage": -9.822406550180952,
+        "Winner": "LNS Only"
+    },
+    "100.20.4": {
+        "1_MultiLevel_Score": 53.45769927315707,
+        "1_MultiLevel_Time": 137.229,
+        "2_LNSOnly_Score": 59.5478230139435,
+        "2_LNSOnly_Time": 137.255,
+        "3_GAP_Percentage": 11.392416478059111,
+        "Winner": "Multi-Level"
+    },
+    "100.30.1": {
+        "1_MultiLevel_Score": 90.36925928984598,
+        "1_MultiLevel_Time": 116.835,
+        "2_LNSOnly_Score": 100.64029066946324,
+        "2_LNSOnly_Time": 116.854,
+        "3_GAP_Percentage": 11.365625280466721,
+        "Winner": "Multi-Level"
+    },
+    "100.30.2": {
+        "1_MultiLevel_Score": 95.35166220339286,
+        "1_MultiLevel_Time": 117.121,
+        "2_LNSOnly_Score": 101.37354322954151,
+        "2_LNSOnly_Time": 117.133,
+        "3_GAP_Percentage": 6.315444206209521,
+        "Winner": "Multi-Level"
+    },
+    "100.30.3": {
+        "1_MultiLevel_Score": 110.02415595324479,
+        "1_MultiLevel_Time": 125.906,
+        "2_LNSOnly_Score": 94.28913527598202,
+        "2_LNSOnly_Time": 125.912,
+        "3_GAP_Percentage": -14.3014236654989,
+        "Winner": "LNS Only"
+    },
+    "100.30.4": {
+        "1_MultiLevel_Score": 91.19227096305573,
+        "1_MultiLevel_Time": 118.829,
+        "2_LNSOnly_Score": 103.18819439804248,
+        "2_LNSOnly_Time": 118.877,
+        "3_GAP_Percentage": 13.15453964278025,
+        "Winner": "Multi-Level"
+    },
+    "100.40.1": {
+        "1_MultiLevel_Score": 184.37635650071135,
+        "1_MultiLevel_Time": 126.217,
+        "2_LNSOnly_Score": 166.6213943768712,
+        "2_LNSOnly_Time": 126.237,
+        "3_GAP_Percentage": -9.629739116670123,
+        "Winner": "LNS Only"
+    },
+    "100.40.2": {
+        "1_MultiLevel_Score": 186.06548130951782,
+        "1_MultiLevel_Time": 109.792,
+        "2_LNSOnly_Score": 160.55057195153069,
+        "2_LNSOnly_Time": 109.813,
+        "3_GAP_Percentage": -13.712865588186867,
+        "Winner": "LNS Only"
+    },
+    "100.40.3": {
+        "1_MultiLevel_Score": 178.50842220220736,
+        "1_MultiLevel_Time": 130.575,
+        "2_LNSOnly_Score": 173.5858786913477,
+        "2_LNSOnly_Time": 130.581,
+        "3_GAP_Percentage": -2.7575973447816393,
+        "Winner": "LNS Only"
+    },
+    "100.40.4": {
+        "1_MultiLevel_Score": 185.41648478107297,
+        "1_MultiLevel_Time": 114.602,
+        "2_LNSOnly_Score": 160.0942956518636,
+        "2_LNSOnly_Time": 114.649,
+        "3_GAP_Percentage": -13.656924387876332,
+        "Winner": "LNS Only"
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "6.10.1": {
+        "1_MultiLevel_Score": 13.419137613927248,
+        "1_MultiLevel_Time": 0.716,
+        "2_LNSOnly_Score": 13.419137613927246,
+        "2_LNSOnly_Time": 0.716,
+        "3_GAP_Percentage": -1.3237488805216758e-14,
+        "Winner": "LNS Only"
+    },
+    "6.10.2": {
+        "1_MultiLevel_Score": 15.661528128665465,
+        "1_MultiLevel_Time": 1.005,
+        "2_LNSOnly_Score": 15.661528128665465,
+        "2_LNSOnly_Time": 1.005,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.10.3": {
+        "1_MultiLevel_Score": 14.408161951234206,
+        "1_MultiLevel_Time": 0.903,
+        "2_LNSOnly_Score": 14.408161951234206,
+        "2_LNSOnly_Time": 0.903,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.10.4": {
+        "1_MultiLevel_Score": 11.68828620229006,
+        "1_MultiLevel_Time": 0.736,
+        "2_LNSOnly_Score": 11.68828620229006,
+        "2_LNSOnly_Time": 0.736,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.20.1": {
+        "1_MultiLevel_Score": 24.28159004712444,
+        "1_MultiLevel_Time": 0.908,
+        "2_LNSOnly_Score": 24.28159004712444,
+        "2_LNSOnly_Time": 0.908,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.20.2": {
+        "1_MultiLevel_Score": 30.416187883468314,
+        "1_MultiLevel_Time": 0.917,
+        "2_LNSOnly_Score": 30.416187883468314,
+        "2_LNSOnly_Time": 0.917,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.20.3": {
+        "1_MultiLevel_Score": 30.121185312527953,
+        "1_MultiLevel_Time": 0.839,
+        "2_LNSOnly_Score": 30.121185312527953,
+        "2_LNSOnly_Time": 0.839,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.20.4": {
+        "1_MultiLevel_Score": 28.790527806959435,
+        "1_MultiLevel_Time": 0.752,
+        "2_LNSOnly_Score": 28.79052780695943,
+        "2_LNSOnly_Time": 0.752,
+        "3_GAP_Percentage": -1.2339869913540508e-14,
+        "Winner": "LNS Only"
+    },
+    "6.5.1": {
+        "1_MultiLevel_Score": 8.195568520051545,
+        "1_MultiLevel_Time": 0.83,
+        "2_LNSOnly_Score": 8.195568520051545,
+        "2_LNSOnly_Time": 0.83,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.5.2": {
+        "1_MultiLevel_Score": 7.452899217113275,
+        "1_MultiLevel_Time": 0.728,
+        "2_LNSOnly_Score": 7.452899217113275,
+        "2_LNSOnly_Time": 0.728,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.5.3": {
+        "1_MultiLevel_Score": 6.787649796903761,
+        "1_MultiLevel_Time": 0.829,
+        "2_LNSOnly_Score": 6.787649796903761,
+        "2_LNSOnly_Time": 0.829,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    },
+    "6.5.4": {
+        "1_MultiLevel_Score": 7.653770533061738,
+        "1_MultiLevel_Time": 0.722,
+        "2_LNSOnly_Score": 7.653770533061738,
+        "2_LNSOnly_Time": 0.722,
+        "3_GAP_Percentage": 0.0,
+        "Winner": "Draw"
+    }
+}
