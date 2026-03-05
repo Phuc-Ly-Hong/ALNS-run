@@ -6,7 +6,7 @@
     "dataPath": "data/",
     "dataName": "12.5.4",
     "dataType": ".txt",
-    "NumRunPerDataSet": 1,
+    "NumRunPerDataSet": 5,
     "multiData": true,
     "addEjectionType": 1,
     "ejectionIte": 30,
