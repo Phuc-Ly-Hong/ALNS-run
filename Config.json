@@ -27,7 +27,7 @@
         "use_intra": true
     },
     "multiLevel_para": {
-        "num_level": 3,
+        "num_level": 4,
         "percent_match": 0.2,
         "percent_select": 0.1,
         "tabu_size": 10,
