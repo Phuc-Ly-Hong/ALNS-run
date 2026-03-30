@@ -84,8 +84,6 @@ std::tuple<int, Solution, std::map<int, std::vector<int>>> MultiLevel::mergeSol(
         }
     }
     
-    std::cout << std::endl << "counttt = " << counttt << ", percent_match = " << config.percent_match * 100 << "%";
-    
     int numUpdate = NumCus * config.percent_select;
     
     // --- Matching Logic ---
@@ -276,7 +274,6 @@ std::tuple<Solution, std::map<int, std::vector<int>>, std::vector<double>> Multi
         else freqMatrix = std::get<2>(result);
 
         double temp2 = sol.getScore();
-        std::cout<<std::endl<<"Score after LNS in merge process level "<<count_level+1<<" is: "<<temp2;
         
         // Điều kiện dừng
         if (numcus <= 2 || ((std::abs(temp2 - currentScore) < std::abs(config.tabuEpsilon)) && (count_level >= 3))){
@@ -332,7 +329,6 @@ std::tuple<Solution, std::map<int, std::vector<int>>, std::vector<double>> Multi
         count_level++;
     }
     
-    std::cout<<std::endl<<"Score after merge process is: "<<currentSol.getScore();
     scoree.push_back(currentSol.getScore());
 
     return std::make_tuple(currentSol, std::get<2>(std::tuple<int, Solution, std::map<int, std::vector<int>>>()), scoree);
@@ -368,7 +364,6 @@ Solution MultiLevel::splitSol(Solution solution, std::map<int, std::vector<int>>
             if (j >= solution.techTripList[i].size() - 1) break;
         }
     }
-    std::cout << std::endl << "counttt = " << counttt;
     return solution;
 }
 
@@ -399,10 +394,8 @@ std::tuple<Solution, std::vector<double>> MultiLevel::splitProcess(Solution solu
         
         LargeNeighborhoodSearch lnsSolver(config, input); 
         solution.setInput(input);
-        std::cout<<std::endl<<"Score before LNS in Split process Level "<<(i+1)<<" is: "<<solution.getScore();
         auto result = lnsSolver.run(log, path_e, input, solution);
         solution = std::get<1>(result);
-        std::cout<<std::endl<<"Score After LNS in Split process Level "<<(i+1)<<" is: "<<solution.getScore();
         best = std::get<0>(result);
         scoree.push_back(best);
     }

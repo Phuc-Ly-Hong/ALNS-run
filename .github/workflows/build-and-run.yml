@@ -2,9 +2,9 @@ name: Build and Run C++ Project
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, No_limited_waiting_time ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, No_limited_waiting_time ]
   workflow_dispatch:  # Cho phép chạy thủ công từ tab Actions
 
 jobs:
