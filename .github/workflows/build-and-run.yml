@@ -1,26 +1,26 @@
-name: Build and Run C++ Project
+name: Build and Run Optimized (Parallel)
 
 on:
   push:
     branches: [ main, master, No_limited_waiting_time ]
   pull_request:
     branches: [ main, master, No_limited_waiting_time ]
-  workflow_dispatch:  # Cho phép chạy thủ công từ tab Actions
+  workflow_dispatch:
 
 jobs:
-  build-and-run:
-    runs-on: ubuntu-latest  # Dùng Linux (g++ sẵn có)
-
+  compile:
+    name: Compile
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install g++
-        run: sudo apt-get install -y g++
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential
 
-      - name: Compile
+      - name: Compile with optimization
         run: |
-          g++ -std=c++17 main.cpp \
+          g++ -std=c++17 -O3 -march=native -ffast-math main.cpp \
             src/Config.cpp \
             src/Input.cpp \
             src/Solution.cpp \
@@ -29,12 +29,85 @@ jobs:
             src/MultiLevel.cpp \
             -o main_exec
 
-      - name: Run
-        run: ./main_exec
+      - name: Upload executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: executable
+          path: main_exec
 
-      - name: Upload result files
+  test-dataset-50:
+    name: Test Dataset Size 50
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download executable
+        uses: actions/download-artifact@v4
+        with:
+          name: executable
+
+      - name: Make executable
+        run: chmod +x main_exec
+
+      - name: Run Dataset 50
+        run: ./main_exec 50
+
+      - name: Upload results DS50
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: results
-          path: result_real/  # Thư mục output theo Config.json của bạn
+          name: results-ds50
+          path: result_real/COMPARE_50.json
+
+  test-dataset-100:
+    name: Test Dataset Size 100
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download executable
+        uses: actions/download-artifact@v4
+        with:
+          name: executable
+
+      - name: Make executable
+        run: chmod +x main_exec
+
+      - name: Run Dataset 100
+        run: ./main_exec 100
+
+      - name: Upload results DS100
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: results-ds100
+          path: result_real/COMPARE_100.json
+
+  merge-results:
+    name: Merge Results
+    needs: [test-dataset-50, test-dataset-100]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download all results
+        uses: actions/download-artifact@v4
+        with:
+          path: result_real/
+
+      - name: List results
+        run: ls -la result_real/
+
+      - name: Upload all results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: all-results
+          path: result_real/
+          retention-days: 30
