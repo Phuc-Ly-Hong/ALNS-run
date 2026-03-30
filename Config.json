@@ -21,7 +21,7 @@
         "numDrone": 2,
         "numTech": 2,
         "droneLimitationFlightTime": 120,
-        "sampleLimitationWaitingTime": 60,
+        "sampleLimitationWaitingTime": 1000000000,
         "use_ejection": true,
         "use_inter": true, 
         "use_intra": true
